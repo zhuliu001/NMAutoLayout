@@ -1,7 +1,7 @@
     Pod::Spec.new do |s|  
       
       s.name         = "NMAutoLayout" 
-      s.version      = "1.0.0"  
+      s.version      = "1.0.1"  
       s.summary      = "Make development easier."  
       s.homepage     = "https://github.com/huya-nimo/NMAutoLayout"  
       s.license      = "MIT"  
