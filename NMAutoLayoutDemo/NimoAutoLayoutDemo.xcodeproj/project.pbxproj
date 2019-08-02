@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E541775C22F4228C005F725C /* NMFrameMakerMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = E541774B22F4228C005F725C /* NMFrameMakerMargin.m */; };
-		E541775D22F4228C005F725C /* NMFrameMaker+NMFrameType.m in Sources */ = {isa = PBXBuildFile; fileRef = E541774E22F4228C005F725C /* NMFrameMaker+NMFrameType.m */; };
-		E541775E22F4228C005F725C /* UIView+NMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E541775022F4228C005F725C /* UIView+NMAddition.m */; };
-		E541775F22F4228C005F725C /* UIView+NMFrameMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E541775222F4228C005F725C /* UIView+NMFrameMaker.m */; };
 		E541776022F4228C005F725C /* NMFrameMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E541775322F4228C005F725C /* NMFrameMaker.m */; };
 		E541776122F4228C005F725C /* NMFrameMakerType.m in Sources */ = {isa = PBXBuildFile; fileRef = E541775422F4228C005F725C /* NMFrameMakerType.m */; };
 		E541776222F4228C005F725C /* NMFrameMakerOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = E541775522F4228C005F725C /* NMFrameMakerOffset.m */; };
+		E541776F22F42701005F725C /* NMFrameMaker+NMFrameType.m in Sources */ = {isa = PBXBuildFile; fileRef = E541776B22F42701005F725C /* NMFrameMaker+NMFrameType.m */; };
+		E541777022F42701005F725C /* UIView+NMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E541776C22F42701005F725C /* UIView+NMAddition.m */; };
+		E541777122F42701005F725C /* UIView+NMFrameMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E541776E22F42701005F725C /* UIView+NMFrameMaker.m */; };
 		E5BD5A6E22F18769006219DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5A6D22F18769006219DA /* AppDelegate.m */; };
 		E5BD5A7122F18769006219DA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5A7022F18769006219DA /* FirstViewController.m */; };
 		E5BD5A7422F18769006219DA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5A7322F18769006219DA /* SecondViewController.m */; };
@@ -46,12 +46,6 @@
 
 /* Begin PBXFileReference section */
 		E541774B22F4228C005F725C /* NMFrameMakerMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMFrameMakerMargin.m; sourceTree = "<group>"; };
-		E541774D22F4228C005F725C /* UIView+NMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NMAddition.h"; sourceTree = "<group>"; };
-		E541774E22F4228C005F725C /* NMFrameMaker+NMFrameType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NMFrameMaker+NMFrameType.m"; sourceTree = "<group>"; };
-		E541774F22F4228C005F725C /* UIView+NMFrameMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NMFrameMaker.h"; sourceTree = "<group>"; };
-		E541775022F4228C005F725C /* UIView+NMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NMAddition.m"; sourceTree = "<group>"; };
-		E541775122F4228C005F725C /* NMFrameMaker+NMFrameType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NMFrameMaker+NMFrameType.h"; sourceTree = "<group>"; };
-		E541775222F4228C005F725C /* UIView+NMFrameMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NMFrameMaker.m"; sourceTree = "<group>"; };
 		E541775322F4228C005F725C /* NMFrameMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMFrameMaker.m; sourceTree = "<group>"; };
 		E541775422F4228C005F725C /* NMFrameMakerType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMFrameMakerType.m; sourceTree = "<group>"; };
 		E541775522F4228C005F725C /* NMFrameMakerOffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMFrameMakerOffset.m; sourceTree = "<group>"; };
@@ -61,6 +55,12 @@
 		E541775922F4228C005F725C /* NMFrameMakerType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMFrameMakerType.h; sourceTree = "<group>"; };
 		E541775A22F4228C005F725C /* NMFrameMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMFrameMaker.h; sourceTree = "<group>"; };
 		E541775B22F4228C005F725C /* NMFrameMakerOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMFrameMakerOffset.h; sourceTree = "<group>"; };
+		E541776922F42701005F725C /* NMFrameMaker+NMFrameType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NMFrameMaker+NMFrameType.h"; sourceTree = "<group>"; };
+		E541776A22F42701005F725C /* UIView+NMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NMAddition.h"; sourceTree = "<group>"; };
+		E541776B22F42701005F725C /* NMFrameMaker+NMFrameType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NMFrameMaker+NMFrameType.m"; sourceTree = "<group>"; };
+		E541776C22F42701005F725C /* UIView+NMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NMAddition.m"; sourceTree = "<group>"; };
+		E541776D22F42701005F725C /* UIView+NMFrameMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NMFrameMaker.h"; sourceTree = "<group>"; };
+		E541776E22F42701005F725C /* UIView+NMFrameMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NMFrameMaker.m"; sourceTree = "<group>"; };
 		E5BD5A6922F18769006219DA /* NimoAutoLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimoAutoLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BD5A6C22F18769006219DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E5BD5A6D22F18769006219DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		E541774A22F4228C005F725C /* NMAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
-				E541774C22F4228C005F725C /* Category */,
+				E541777422F42732005F725C /* Category */,
 				E541775722F4228C005F725C /* NMAutoLayout.h */,
 				E541775622F4228C005F725C /* NMFrameBoxValue.h */,
 				E541775A22F4228C005F725C /* NMFrameMaker.h */,
@@ -129,17 +129,17 @@
 			path = ../../NMAutoLayout;
 			sourceTree = "<group>";
 		};
-		E541774C22F4228C005F725C /* Category */ = {
+		E541777422F42732005F725C /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				E541774D22F4228C005F725C /* UIView+NMAddition.h */,
-				E541775022F4228C005F725C /* UIView+NMAddition.m */,
-				E541774F22F4228C005F725C /* UIView+NMFrameMaker.h */,
-				E541775222F4228C005F725C /* UIView+NMFrameMaker.m */,
-				E541775122F4228C005F725C /* NMFrameMaker+NMFrameType.h */,
-				E541774E22F4228C005F725C /* NMFrameMaker+NMFrameType.m */,
+				E541776A22F42701005F725C /* UIView+NMAddition.h */,
+				E541776C22F42701005F725C /* UIView+NMAddition.m */,
+				E541776D22F42701005F725C /* UIView+NMFrameMaker.h */,
+				E541776E22F42701005F725C /* UIView+NMFrameMaker.m */,
+				E541776922F42701005F725C /* NMFrameMaker+NMFrameType.h */,
+				E541776B22F42701005F725C /* NMFrameMaker+NMFrameType.m */,
 			);
-			path = Category;
+			name = Category;
 			sourceTree = "<group>";
 		};
 		E5BD5A6022F18769006219DA = {
@@ -340,16 +340,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E541776F22F42701005F725C /* NMFrameMaker+NMFrameType.m in Sources */,
+				E541777022F42701005F725C /* UIView+NMAddition.m in Sources */,
 				E5BD5A7422F18769006219DA /* SecondViewController.m in Sources */,
 				E5BD5A6E22F18769006219DA /* AppDelegate.m in Sources */,
 				E541776122F4228C005F725C /* NMFrameMakerType.m in Sources */,
 				E5BD5AD122F18E3A006219DA /* AutoLayoutTestView.m in Sources */,
-				E541775D22F4228C005F725C /* NMFrameMaker+NMFrameType.m in Sources */,
+				E541777122F42701005F725C /* UIView+NMFrameMaker.m in Sources */,
 				E541775C22F4228C005F725C /* NMFrameMakerMargin.m in Sources */,
 				E5BD5A7F22F1876A006219DA /* main.m in Sources */,
 				E541776022F4228C005F725C /* NMFrameMaker.m in Sources */,
-				E541775E22F4228C005F725C /* UIView+NMAddition.m in Sources */,
-				E541775F22F4228C005F725C /* UIView+NMFrameMaker.m in Sources */,
 				E541776222F4228C005F725C /* NMFrameMakerOffset.m in Sources */,
 				E5BD5A7122F18769006219DA /* FirstViewController.m in Sources */,
 			);
