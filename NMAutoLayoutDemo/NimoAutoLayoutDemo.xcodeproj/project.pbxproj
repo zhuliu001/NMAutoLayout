@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E541775C22F4228C005F725C /* NMFrameMakerMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = E541774B22F4228C005F725C /* NMFrameMakerMargin.m */; };
+		E541775D22F4228C005F725C /* NMFrameMaker+NMFrameType.m in Sources */ = {isa = PBXBuildFile; fileRef = E541774E22F4228C005F725C /* NMFrameMaker+NMFrameType.m */; };
+		E541775E22F4228C005F725C /* UIView+NMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E541775022F4228C005F725C /* UIView+NMAddition.m */; };
+		E541775F22F4228C005F725C /* UIView+NMFrameMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E541775222F4228C005F725C /* UIView+NMFrameMaker.m */; };
+		E541776022F4228C005F725C /* NMFrameMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E541775322F4228C005F725C /* NMFrameMaker.m */; };
+		E541776122F4228C005F725C /* NMFrameMakerType.m in Sources */ = {isa = PBXBuildFile; fileRef = E541775422F4228C005F725C /* NMFrameMakerType.m */; };
+		E541776222F4228C005F725C /* NMFrameMakerOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = E541775522F4228C005F725C /* NMFrameMakerOffset.m */; };
 		E5BD5A6E22F18769006219DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5A6D22F18769006219DA /* AppDelegate.m */; };
 		E5BD5A7122F18769006219DA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5A7022F18769006219DA /* FirstViewController.m */; };
 		E5BD5A7422F18769006219DA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5A7322F18769006219DA /* SecondViewController.m */; };
@@ -16,13 +23,6 @@
 		E5BD5A7F22F1876A006219DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5A7E22F1876A006219DA /* main.m */; };
 		E5BD5A8922F1876A006219DA /* NimoAutoLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5A8822F1876A006219DA /* NimoAutoLayoutDemoTests.m */; };
 		E5BD5A9422F1876A006219DA /* NimoAutoLayoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5A9322F1876A006219DA /* NimoAutoLayoutDemoUITests.m */; };
-		E5BD5AB122F187BB006219DA /* NMFrameMakerMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5AA322F187BA006219DA /* NMFrameMakerMargin.m */; };
-		E5BD5AB222F187BB006219DA /* NMFrameMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5AA422F187BA006219DA /* NMFrameMaker.m */; };
-		E5BD5AB322F187BB006219DA /* NMFrameMakerType.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5AA522F187BA006219DA /* NMFrameMakerType.m */; };
-		E5BD5AB522F187BB006219DA /* NMFrameMakerOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5AA722F187BA006219DA /* NMFrameMakerOffset.m */; };
-		E5BD5AC822F18831006219DA /* NMFrameMaker+NMFrameType.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5AC322F18831006219DA /* NMFrameMaker+NMFrameType.m */; };
-		E5BD5AC922F18831006219DA /* UIView+NMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5AC522F18831006219DA /* UIView+NMAddition.m */; };
-		E5BD5ACA22F18831006219DA /* UIView+NMFrameMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5AC722F18831006219DA /* UIView+NMFrameMaker.m */; };
 		E5BD5ACD22F188E4006219DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BD5ACC22F188E4006219DA /* CoreGraphics.framework */; };
 		E5BD5AD122F18E3A006219DA /* AutoLayoutTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD5AD022F18E3A006219DA /* AutoLayoutTestView.m */; };
 /* End PBXBuildFile section */
@@ -45,7 +45,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E541774922F2888F005F725C /* NMAutoLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMAutoLayout.h; sourceTree = "<group>"; };
+		E541774B22F4228C005F725C /* NMFrameMakerMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMFrameMakerMargin.m; sourceTree = "<group>"; };
+		E541774D22F4228C005F725C /* UIView+NMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NMAddition.h"; sourceTree = "<group>"; };
+		E541774E22F4228C005F725C /* NMFrameMaker+NMFrameType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NMFrameMaker+NMFrameType.m"; sourceTree = "<group>"; };
+		E541774F22F4228C005F725C /* UIView+NMFrameMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NMFrameMaker.h"; sourceTree = "<group>"; };
+		E541775022F4228C005F725C /* UIView+NMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NMAddition.m"; sourceTree = "<group>"; };
+		E541775122F4228C005F725C /* NMFrameMaker+NMFrameType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NMFrameMaker+NMFrameType.h"; sourceTree = "<group>"; };
+		E541775222F4228C005F725C /* UIView+NMFrameMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NMFrameMaker.m"; sourceTree = "<group>"; };
+		E541775322F4228C005F725C /* NMFrameMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMFrameMaker.m; sourceTree = "<group>"; };
+		E541775422F4228C005F725C /* NMFrameMakerType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMFrameMakerType.m; sourceTree = "<group>"; };
+		E541775522F4228C005F725C /* NMFrameMakerOffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMFrameMakerOffset.m; sourceTree = "<group>"; };
+		E541775622F4228C005F725C /* NMFrameBoxValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMFrameBoxValue.h; sourceTree = "<group>"; };
+		E541775722F4228C005F725C /* NMAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMAutoLayout.h; sourceTree = "<group>"; };
+		E541775822F4228C005F725C /* NMFrameMakerMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMFrameMakerMargin.h; sourceTree = "<group>"; };
+		E541775922F4228C005F725C /* NMFrameMakerType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMFrameMakerType.h; sourceTree = "<group>"; };
+		E541775A22F4228C005F725C /* NMFrameMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMFrameMaker.h; sourceTree = "<group>"; };
+		E541775B22F4228C005F725C /* NMFrameMakerOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMFrameMakerOffset.h; sourceTree = "<group>"; };
 		E5BD5A6922F18769006219DA /* NimoAutoLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimoAutoLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BD5A6C22F18769006219DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E5BD5A6D22F18769006219DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,22 +79,7 @@
 		E5BD5A8F22F1876A006219DA /* NimoAutoLayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimoAutoLayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BD5A9322F1876A006219DA /* NimoAutoLayoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NimoAutoLayoutDemoUITests.m; sourceTree = "<group>"; };
 		E5BD5A9522F1876A006219DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5BD5AA322F187BA006219DA /* NMFrameMakerMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMFrameMakerMargin.m; sourceTree = "<group>"; };
-		E5BD5AA422F187BA006219DA /* NMFrameMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMFrameMaker.m; sourceTree = "<group>"; };
-		E5BD5AA522F187BA006219DA /* NMFrameMakerType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMFrameMakerType.m; sourceTree = "<group>"; };
-		E5BD5AA722F187BA006219DA /* NMFrameMakerOffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMFrameMakerOffset.m; sourceTree = "<group>"; };
-		E5BD5AAB22F187BB006219DA /* NMFrameMakerMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMFrameMakerMargin.h; sourceTree = "<group>"; };
-		E5BD5AAD22F187BB006219DA /* NMFrameMakerType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMFrameMakerType.h; sourceTree = "<group>"; };
-		E5BD5AAE22F187BB006219DA /* NMFrameMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMFrameMaker.h; sourceTree = "<group>"; };
-		E5BD5AB022F187BB006219DA /* NMFrameMakerOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMFrameMakerOffset.h; sourceTree = "<group>"; };
-		E5BD5AC222F18831006219DA /* UIView+NMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NMAddition.h"; sourceTree = "<group>"; };
-		E5BD5AC322F18831006219DA /* NMFrameMaker+NMFrameType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NMFrameMaker+NMFrameType.m"; sourceTree = "<group>"; };
-		E5BD5AC422F18831006219DA /* UIView+NMFrameMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NMFrameMaker.h"; sourceTree = "<group>"; };
-		E5BD5AC522F18831006219DA /* UIView+NMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NMAddition.m"; sourceTree = "<group>"; };
-		E5BD5AC622F18831006219DA /* NMFrameMaker+NMFrameType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NMFrameMaker+NMFrameType.h"; sourceTree = "<group>"; };
-		E5BD5AC722F18831006219DA /* UIView+NMFrameMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NMFrameMaker.m"; sourceTree = "<group>"; };
 		E5BD5ACC22F188E4006219DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E5BD5ACE22F189AF006219DA /* NMFrameBoxValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMFrameBoxValue.h; sourceTree = "<group>"; };
 		E5BD5ACF22F18E3A006219DA /* AutoLayoutTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTestView.h; sourceTree = "<group>"; };
 		E5BD5AD022F18E3A006219DA /* AutoLayoutTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +110,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E541774A22F4228C005F725C /* NMAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				E541774C22F4228C005F725C /* Category */,
+				E541775722F4228C005F725C /* NMAutoLayout.h */,
+				E541775622F4228C005F725C /* NMFrameBoxValue.h */,
+				E541775A22F4228C005F725C /* NMFrameMaker.h */,
+				E541775322F4228C005F725C /* NMFrameMaker.m */,
+				E541775922F4228C005F725C /* NMFrameMakerType.h */,
+				E541775422F4228C005F725C /* NMFrameMakerType.m */,
+				E541775822F4228C005F725C /* NMFrameMakerMargin.h */,
+				E541774B22F4228C005F725C /* NMFrameMakerMargin.m */,
+				E541775B22F4228C005F725C /* NMFrameMakerOffset.h */,
+				E541775522F4228C005F725C /* NMFrameMakerOffset.m */,
+			);
+			name = NMAutoLayout;
+			path = ../../NMAutoLayout;
+			sourceTree = "<group>";
+		};
+		E541774C22F4228C005F725C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E541774D22F4228C005F725C /* UIView+NMAddition.h */,
+				E541775022F4228C005F725C /* UIView+NMAddition.m */,
+				E541774F22F4228C005F725C /* UIView+NMFrameMaker.h */,
+				E541775222F4228C005F725C /* UIView+NMFrameMaker.m */,
+				E541775122F4228C005F725C /* NMFrameMaker+NMFrameType.h */,
+				E541774E22F4228C005F725C /* NMFrameMaker+NMFrameType.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		E5BD5A6022F18769006219DA = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +166,7 @@
 		E5BD5A6B22F18769006219DA /* NimoAutoLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E5BD5AA122F187BA006219DA /* Src */,
+				E541774A22F4228C005F725C /* NMAutoLayout */,
 				E5BD5ACF22F18E3A006219DA /* AutoLayoutTestView.h */,
 				E5BD5AD022F18E3A006219DA /* AutoLayoutTestView.m */,
 				E5BD5A6F22F18769006219DA /* FirstViewController.h */,
@@ -168,38 +200,6 @@
 				E5BD5A9522F1876A006219DA /* Info.plist */,
 			);
 			path = NimoAutoLayoutDemoUITests;
-			sourceTree = "<group>";
-		};
-		E5BD5AA122F187BA006219DA /* Src */ = {
-			isa = PBXGroup;
-			children = (
-				E5BD5AC122F18831006219DA /* Category */,
-				E5BD5AAE22F187BB006219DA /* NMFrameMaker.h */,
-				E5BD5AA422F187BA006219DA /* NMFrameMaker.m */,
-				E5BD5ACE22F189AF006219DA /* NMFrameBoxValue.h */,
-				E5BD5AAD22F187BB006219DA /* NMFrameMakerType.h */,
-				E5BD5AA522F187BA006219DA /* NMFrameMakerType.m */,
-				E5BD5AAB22F187BB006219DA /* NMFrameMakerMargin.h */,
-				E5BD5AA322F187BA006219DA /* NMFrameMakerMargin.m */,
-				E5BD5AB022F187BB006219DA /* NMFrameMakerOffset.h */,
-				E5BD5AA722F187BA006219DA /* NMFrameMakerOffset.m */,
-				E541774922F2888F005F725C /* NMAutoLayout.h */,
-			);
-			name = Src;
-			path = ../../../Src;
-			sourceTree = "<group>";
-		};
-		E5BD5AC122F18831006219DA /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				E5BD5AC222F18831006219DA /* UIView+NMAddition.h */,
-				E5BD5AC522F18831006219DA /* UIView+NMAddition.m */,
-				E5BD5AC422F18831006219DA /* UIView+NMFrameMaker.h */,
-				E5BD5AC722F18831006219DA /* UIView+NMFrameMaker.m */,
-				E5BD5AC622F18831006219DA /* NMFrameMaker+NMFrameType.h */,
-				E5BD5AC322F18831006219DA /* NMFrameMaker+NMFrameType.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		E5BD5ACB22F188E4006219DA /* Frameworks */ = {
@@ -341,17 +341,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5BD5A7422F18769006219DA /* SecondViewController.m in Sources */,
-				E5BD5AB222F187BB006219DA /* NMFrameMaker.m in Sources */,
 				E5BD5A6E22F18769006219DA /* AppDelegate.m in Sources */,
-				E5BD5AB522F187BB006219DA /* NMFrameMakerOffset.m in Sources */,
-				E5BD5AB322F187BB006219DA /* NMFrameMakerType.m in Sources */,
+				E541776122F4228C005F725C /* NMFrameMakerType.m in Sources */,
 				E5BD5AD122F18E3A006219DA /* AutoLayoutTestView.m in Sources */,
+				E541775D22F4228C005F725C /* NMFrameMaker+NMFrameType.m in Sources */,
+				E541775C22F4228C005F725C /* NMFrameMakerMargin.m in Sources */,
 				E5BD5A7F22F1876A006219DA /* main.m in Sources */,
-				E5BD5ACA22F18831006219DA /* UIView+NMFrameMaker.m in Sources */,
+				E541776022F4228C005F725C /* NMFrameMaker.m in Sources */,
+				E541775E22F4228C005F725C /* UIView+NMAddition.m in Sources */,
+				E541775F22F4228C005F725C /* UIView+NMFrameMaker.m in Sources */,
+				E541776222F4228C005F725C /* NMFrameMakerOffset.m in Sources */,
 				E5BD5A7122F18769006219DA /* FirstViewController.m in Sources */,
-				E5BD5AC822F18831006219DA /* NMFrameMaker+NMFrameType.m in Sources */,
-				E5BD5AB122F187BB006219DA /* NMFrameMakerMargin.m in Sources */,
-				E5BD5AC922F18831006219DA /* UIView+NMAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
