@@ -7,6 +7,7 @@ NMAutoLayout是一个轻量级的自动布局框架，采用简洁优雅的链�
 ## 二、NMAutoLayout 常用属性与Masonry的对照表如下
 
 | Masonry | NMAutoLayout | 说明 | 
+|:--------------------:|:--------------------:|:---------------:|
 | view.mas_left| view.nm_left| 左侧| 
 | view.mas_top| view.nm_top| 上侧| 
 | view.mas_right| view.nm_right| 右侧| 
@@ -179,14 +180,11 @@ NMAutoLayout框架是虎牙海外项目组Nimo团队自研的自动布局框架�
 
 ## 七、快速使用
 
-1 Pod或直接把NMAutoLayout文件拖入项目
-
+- Pod或直接把NMAutoLayout文件拖入项目
 ```objc 
 pod 'NMAutoLayout', '~>1.0.1'
 ```
-
-2 导入头文件
-
+- 导入头文件
 ```objc
 #import "NMAutoLayout.h"
 ```
