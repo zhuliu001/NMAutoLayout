@@ -110,7 +110,7 @@ make.center 相当于同时设置NMFrameTypeCenterX，NMFrameTypeCenterY
 ## 五、NMAutoLayout 与 Masonry 比较
 
 ### 1、性能：
-NMAutoLayout是基于Frame的封装，而Masonry是基于NSAutoLayout的封装，性能上NMAutoLayout是相对更优的，系统NSAutoLayout本身也是将约束条件计算后转化为视图的frame，再应用到视图上。NSAutoLayout性能相关的讨论可参考类似的文章。
+NMAutoLayout是基于Frame的封装，而Masonry是基于NSAutoLayout的封装，性能上NMAutoLayout相对Masonry是更优的。因为系统NSAutoLayout本身也是将约束条件计算后转化为视图的frame，再应用到视图上，虽然在iOS12以后NSAutoLayout算法改进后性能基本等同于frame布局，但仍存在一些问题。NSAutoLayout性能相关的讨论可参考类似的文章。
 
 - [从 Auto Layout 的布局算法谈性能](https://draveness.me/layout-performance#)
 - [iOS开发针对对Masonry下的FPS优化讨论](https://www.cnblogs.com/ludashi/p/7760471.html)
