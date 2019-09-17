@@ -176,7 +176,7 @@ self.textLabel = [[UILabel alloc] init];
 
 ## 六、结语
 
-NMAutoLayout框架是虎牙海外项目组Nimo团队自研的自动布局框架，设计思想借鉴了Masonry的链式语法结构，底层原理基于Frame，在性能和API友好易用性上超越了Masonry，当前NMAutoLayout框架可以完全满足基本的UI布局需要，后续还会扩展更多的API以满足个性化的需要。
+NMAutoLayout框架的设计思想借鉴了Masonry的链式语法结构，底层原理基于Frame，在性能和API友好易用性上超越了Masonry，当前NMAutoLayout框架可以完全满足基本的UI布局需要，后续还会扩展更多的API以满足个性化的需要。
 
 ## 七、快速使用
 
